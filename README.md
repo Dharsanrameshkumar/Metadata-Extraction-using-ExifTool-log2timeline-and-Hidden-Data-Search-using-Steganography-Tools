@@ -58,7 +58,8 @@ exiftool -r /path/to/folder
 
 - ```-GPSLatitude -GPSLongitude: Extract GPS data```
 
-![alt text](exif.png)
+<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/b0f1df6a-ca04-481c-894c-08550df64582" />
+
 
 ### install log2timeline
 ```
@@ -72,26 +73,29 @@ sudo apt install steghide -y
 ```
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
 ```
-![alt text](embed.png)
+<img width="1920" height="556" alt="image" src="https://github.com/user-attachments/assets/686756a6-701f-44e1-880f-2a5d2fa7fa3e" />
 
 - **Extract hidden data:**
 ```
 steghide extract -sf hidden.jpg
 
 ```
-![alt text](extract.png)
+<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/446d351c-8da8-478d-b11e-795b621d33d3" />
+
 
 ### Using binwalk – for file analysis
 ```bash
 sudo apt install binwalk -y
 binwalk suspicious.jpg
 ```
-![alt text](<binwalk sus.png>)
+<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/e7add814-a1e9-43ac-97b3-9986aca5152f" />
+
 
 ```bash
 binwalk /home/kali/Downloads/wallpaper.jpg
 ```
-![alt text](<binwalk happy.png>)
+<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/ec6ac79d-7be3-4092-a22d-2ff874da48ef" />
+
 
 ## RESULT:
 Metadata was successfully extracted, timeline analysis was completed, and hidden data was identified using steganography tools.
